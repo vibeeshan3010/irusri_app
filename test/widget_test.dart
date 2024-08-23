@@ -8,6 +8,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 
 
 
+
 class MockApiViewModel extends Mock implements ApiViewModel {}
 
 class MockConnectivity extends Mock implements Connectivity {}
