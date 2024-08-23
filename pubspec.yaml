@@ -24,6 +24,7 @@ dependencies:
   provider: ^6.1.1
   flutter_speed_dial: ^7.0.0
   fluttertoast: ^8.2.5
+  mockito: ^5.0.17
 #  flutter_native_splash: ^2.3.7
 
 dev_dependencies:
