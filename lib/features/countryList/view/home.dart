@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
+  //method to show alert with country details
   void showCountryInfoDialog(BuildContext context, EuropeanCountryResponse item) {
     showDialog(
       context: context,
@@ -172,6 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
+  //method to show toast
   Future<void> showToast(String message) async {
     await Fluttertoast.cancel();
     Fluttertoast.showToast(msg: message, fontSize: 18);
